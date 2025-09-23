@@ -1,11 +1,9 @@
 import './App.css'
-import TaskList from "features/taskList/ui/TaskList";
+import TaskPage from "pages/tasks/TaskPage";
 
 function App() {
   return (
-    <>
-       <TaskList/>
-    </>
+       <TaskPage/>
   )
 }
 

@@ -9,11 +9,9 @@ type Props = {
 
 export default function TaskCard(props: Props) {
     return (
-        <div>
-            <label className={style.task}>{props.task.title}
-                <input type="checkbox" id={"taskCheckBox" + props.task.id} checked={props.task.completed}
-                       onChange={() => props.onTaskClick(props.task.id)}/>
-            </label>
-        </div>
+        <label className={style.task}>{props.task.title}
+            <input type="checkbox" id={"taskCheckBox" + props.task.id} checked={props.task.completed}
+                   onChange={() => props.onTaskClick(props.task.id)}/>
+        </label>
     );
 }

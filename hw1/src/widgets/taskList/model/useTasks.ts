@@ -3,6 +3,19 @@ import {useState} from 'react';
 
 export type Filter = 'all' | 'completed' | 'incomplete';
 
+function filterTasks(tasks: Task[], filter: Filter): Task[] {
+    return tasks.filter(t => {
+        switch (filter) {
+            case 'completed':
+                return t.completed;
+            case 'incomplete':
+                return !t.completed;
+            default:
+                return true;
+        }
+    })
+}
+
 export default function useTasks(initial: Task[]): [Task[], (id: string) => void, Filter, (f: Filter) => void, (id: string) => void] {
     const [tasks, setTasks] = useState(initial);
     const handleTaskClick = (id: string) => {
@@ -15,7 +28,8 @@ export default function useTasks(initial: Task[]): [Task[], (id: string) => void
         }));
     };
     const [filter, setFilter] = useState<Filter>('all');
-    const removeTask: (id: string) => void = () => {
+    const removeTask = (id: string) => {
+        setTasks(tasks.filter(t => t.id !== id))
     };
-    return [tasks, handleTaskClick, filter, setFilter, removeTask];
+    return [filterTasks(tasks, filter), handleTaskClick, filter, setFilter, removeTask];
 }
