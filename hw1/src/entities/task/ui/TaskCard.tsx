@@ -1,6 +1,6 @@
+import React from "react";
 import type {Task} from "entities/task/model/types.ts";
 import style from "entities/task/ui/TaskCard.module.css"
-import React from "react";
 
 type Props = {
     task: Task;
