@@ -1,4 +1,4 @@
-import type {Filter} from "widgets/taskList/model/useTasks";
+import type {Filter} from "../model/types.ts";
 
 type Props = {
     filter: Filter;

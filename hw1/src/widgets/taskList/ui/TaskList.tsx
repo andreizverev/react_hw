@@ -3,7 +3,7 @@ import TaskCard from "entities/task/ui/TaskCard";
 import FilterButton from "shared/filter/ui/FilterButton";
 
 export default function TaskList() {
-    const [tasks, onTaskClick, filter, setFilter, removeTask] = useTasks([
+    const useTasksModel = useTasks([
         {id: "1", title: "First", completed: false},
         {id: "2", title: "Second", completed: true},
         {id: "3", title: "Third", completed: false},
@@ -12,12 +12,13 @@ export default function TaskList() {
     return (
         <>
             <div>
-                <FilterButton filter={filter} onSetFilter={setFilter}/>
+                <FilterButton filter={useTasksModel.filter} onSetFilter={useTasksModel.setFilter}/>
             </div>
-            {tasks.map(t => <div>
-                <TaskCard task={t} onTaskClick={onTaskClick} key={t.id}/>
-                <button onClick={() => removeTask(t.id)}>Удалить</button>
-            </div>)}
+            {useTasksModel.tasks.map(t =>
+                <div key={t.id}>
+                    <TaskCard task={t} onTaskClick={useTasksModel.onTaskClick}/>
+                    <button onClick={() => useTasksModel.onRemoveTask(t.id)}>Удалить</button>
+                </div>)}
         </>
     );
 }

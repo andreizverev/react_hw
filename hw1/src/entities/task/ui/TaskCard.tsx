@@ -1,4 +1,4 @@
-import React from "react";
+import React, {memo} from "react";
 import type {Task} from "entities/task/model/types.ts";
 import style from "entities/task/ui/TaskCard.module.css"
 
@@ -7,7 +7,7 @@ type Props = {
     onTaskClick: (id: string) => void;
 }
 
-export default function TaskCard(props: Props) {
+function TaskCardComponent(props: Props) {
     return (
         <label className={style.task}>{props.task.title}
             <input type="checkbox" id={"taskCheckBox" + props.task.id} checked={props.task.completed}
@@ -15,3 +15,6 @@ export default function TaskCard(props: Props) {
         </label>
     );
 }
+
+export const TaskCard = memo(TaskCardComponent);
+export default TaskCard;

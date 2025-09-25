@@ -1,7 +1,6 @@
-import {useState} from 'react';
+import {useCallback, useMemo, useState} from 'react';
 import {Task} from 'entities/task/model/types';
-
-export type Filter = 'all' | 'completed' | 'incomplete';
+import type {Filter} from "shared/filter/model/types";
 
 function filterTasks(tasks: Task[], filter: Filter): Task[] {
     return tasks.filter(t => {
@@ -16,20 +15,35 @@ function filterTasks(tasks: Task[], filter: Filter): Task[] {
     })
 }
 
-export default function useTasks(initial: Task[]): [Task[], (id: string) => void, Filter, (f: Filter) => void, (id: string) => void] {
+interface UseTasks {
+    tasks: Task[],
+    onTaskClick: (id: string) => void;
+    filter: Filter;
+    setFilter: (filter: Filter) => void;
+    onRemoveTask: (id: string) => void;
+}
+
+export default function useTasks(initial: Task[]): UseTasks {
     const [tasks, setTasks] = useState(initial);
-    const handleTaskClick = (id: string) => {
-        setTasks(tasks.map(t => {
+    const [filter, setFilter] = useState<Filter>('all');
+    const filteredTasks = useMemo(() => filterTasks(tasks, filter), [tasks, filter]);
+    const handleTaskClick = useCallback((id: string) => {
+        setTasks(prev => prev.map(t => {
             if (t.id !== id) {
                 return t;
             } else {
                 return {...t, completed: !t.completed};
             }
         }));
+    }, []);
+    const removeTask = useCallback((id: string) => {
+        setTasks(prev => prev.filter(t => t.id !== id))
+    }, []);
+    return {
+        tasks: filteredTasks,
+        onTaskClick: handleTaskClick,
+        filter: filter,
+        setFilter: setFilter,
+        onRemoveTask: removeTask
     };
-    const [filter, setFilter] = useState<Filter>('all');
-    const removeTask = (id: string) => {
-        setTasks(tasks.filter(t => t.id !== id))
-    };
-    return [filterTasks(tasks, filter), handleTaskClick, filter, setFilter, removeTask];
 }
