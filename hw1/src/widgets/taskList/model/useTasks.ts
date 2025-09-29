@@ -1,4 +1,5 @@
-import {useCallback, useMemo, useState} from 'react';
+import {useCallback, useEffect, useMemo, useState} from 'react';
+import {useGetTasksQuery} from "entities/task/api/tasksApi";
 import {Task} from 'entities/task/model/types';
 import type {Filter} from "shared/filter/model/types";
 
@@ -23,10 +24,18 @@ interface UseTasks {
     onRemoveTask: (id: string) => void;
 }
 
-export default function useTasks(initial: Task[]): UseTasks {
-    const [tasks, setTasks] = useState(initial);
+export default function useTasks(): UseTasks {
+    const {data: remoteTasks} = useGetTasksQuery();
+    const [tasks, setTasks] = useState<Task[]>([]);
     const [filter, setFilter] = useState<Filter>('all');
     const filteredTasks = useMemo(() => filterTasks(tasks, filter), [tasks, filter]);
+
+    useEffect(() => {
+        if (remoteTasks) {
+            setTasks(remoteTasks);
+        }
+    }, [remoteTasks]);
+
     const handleTaskClick = useCallback((id: string) => {
         setTasks(prev => prev.map(t => {
             if (t.id !== id) {
