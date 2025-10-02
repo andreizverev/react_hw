@@ -1,6 +1,6 @@
 import useTasks from "widgets/taskList/model/useTasks";
 import TaskCard from "entities/task/ui/TaskCard";
-import FilterButton from "shared/filter/ui/FilterButton";
+import FilterButton from "shared/ui/FilterButton";
 
 export default function TaskList() {
     const useTasksModel = useTasks();
