@@ -1,4 +1,4 @@
-import type {Filter} from "../model/types.ts";
+import type {Filter} from "../model/types";
 
 type Props = {
     filter: Filter;
