@@ -1,0 +1,19 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "./dist",
+    "module": "nodenext",
+    "target": "es2020",
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "allowImportingTsExtensions":true,
+  },
+  "include": [
+    "app", "configs"
+  ],
+  "ts-node": {
+    "swc": true
+  },
+}

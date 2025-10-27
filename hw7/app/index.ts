@@ -1,0 +1,1 @@
+export {myFunc1 as func1, myFunc2 as func2} from './utils.ts';
