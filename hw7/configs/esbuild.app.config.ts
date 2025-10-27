@@ -2,7 +2,6 @@ import esbuild, {type BuildOptions} from 'esbuild';
 import path from 'path';
 
 let config: BuildOptions = {
-    bundle: true,
     outdir: 'dist',
     format: 'esm',
     entryPoints: [path.resolve(process.cwd(), 'app', 'index.ts')],
@@ -10,6 +9,7 @@ let config: BuildOptions = {
 if (!isDev()) {
     config = {
         ...config,
+        bundle: true,
         minify: true,
         sourcemap: true,
         splitting: true,
