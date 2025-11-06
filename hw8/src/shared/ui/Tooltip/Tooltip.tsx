@@ -64,7 +64,8 @@ export function WithTooltip({children, position}: Props) {
             <div style={{
                 position: 'absolute',
                 top: getTop(childRef.current, position),
-                left: getLeft(childRef.current, position)
+                left: getLeft(childRef.current, position),
+                pointerEvents: 'none'
             }}
                  className={styles.tooltip}
             >

@@ -1,7 +1,6 @@
-import {useCallback, useContext, useState} from "react";
+import {useContext} from "react";
 import {ThemeContext, Themes} from "app/themeContext";
 import {SampleElement} from "features/SampleElement/index";
-import {ConfirmDialog} from "shared/ui/ConfirmDialog/ConfirmDialog";
 import {showConfirmDialog} from "shared/ui/ConfirmDialog/showConfirmDialog";
 import {WithTooltip} from "shared/ui/Tooltip/Tooltip";
 
@@ -10,22 +9,20 @@ type Props = {
 }
 
 export function PortalShowcase(props: Props) {
-    const [confirmationOpen, setConfirmationOpen] = useState(false);
-
-    const confirmationHandler = useCallback((confirmed: boolean) => {
+    const theme = useContext(ThemeContext);
+    const handleDelete = async () => {
+        const confirmed = await showConfirmDialog({
+            title: 'Удалить элемент?',
+            description: 'Это действие необратимо.',
+            theme: theme!
+        });
         if (confirmed) {
             console.log("Удалить");
         } else {
             console.log("Оставить");
         }
-        setConfirmationOpen(false);
-    }, []);
-
-    const handleDelete = async () => {
-        showConfirmDialog({setOpen: () => setConfirmationOpen(true)});
     };
 
-    const theme = useContext(ThemeContext);
     const handleChangeTheme = () => {
         if (theme === 'light') {
             props.setTheme('dark');
@@ -60,11 +57,6 @@ export function PortalShowcase(props: Props) {
             <div>
                 <button onClick={handleDelete}>Удалить</button>
             </div>
-            <ConfirmDialog open={confirmationOpen}
-                           title='Удалить элемент?'
-                           description='Это действие необратимо.'
-                           handleConfirmation={confirmationHandler}
-            />
         </div>
     );
 }
