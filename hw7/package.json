@@ -1,0 +1,31 @@
+{
+  "name": "hw7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf ./dist/*",
+    "build:app": "rm -rf ./dist/* && ts-node ./configs/esbuild.app.config.ts",
+    "build:lib": "rm -rf ./dist/* && ts-node ./configs/esbuild.lib.config.ts",
+    "dev:app": "rm -rf ./dist/* && ts-node ./configs/esbuild.app.config.ts dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.0",
+  "devDependencies": {
+    "@types/node": "24.9.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "esbuild": "0.25.11",
+    "ts-node": "10.9.2",
+    "typescript": "5.9.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "swc": "^1.0.11"
+  }
+}
