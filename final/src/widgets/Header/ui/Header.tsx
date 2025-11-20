@@ -1,13 +1,13 @@
 import classNames from 'classnames';
 import s from './Header.module.css';
-import { Logo } from '../../../shared/ui/Logo';
-import { Search } from '../../../shared/ui/Search/ui/Search';
 import { Link } from 'react-router-dom';
-import { useAppSelector } from '../../../shared/store/utils';
-import { userSelectors } from '../../../shared/store/slices/user';
-import { isLiked } from '../../../shared/utils';
-import { useProducts } from '../../../shared/store/hooks/useProducts';
-import { cartSelectors } from '../../../shared/store/slices/cart';
+import { useProducts } from 'features/Product';
+import { useAppSelector } from 'shared/store';
+import { userSelectors } from 'entities/user/model/user';
+import { cartSelectors } from 'entities/Card/model/cart';
+import { isLiked } from 'shared/lib/utils/index';
+import { Logo } from 'features/Logo/index';
+import { Search } from 'features/Search/index';
 
 export const Header = () => {
 	const { products } = useProducts();

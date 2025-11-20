@@ -1,6 +1,8 @@
 const HTMLWebpackPlugins = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
+
 const path = require('path'); //для того чтобы превратить отнсительный путь в абсолютный мы будем использовать пакет path
 const webpack = require('webpack');
 require('dotenv').config({ path: path.resolve(__dirname, '..', '.env') });
@@ -71,6 +73,7 @@ module.exports = {
 	},
 	resolve: {
 		extensions: ['.js', '.jsx', '.tsx', '.ts', '.json'], //указываем файлы с которыми будет работать webpack
+		plugins: [new TsconfigPathsPlugin({})],
 	},
 	plugins: [
 		new HTMLWebpackPlugins({
