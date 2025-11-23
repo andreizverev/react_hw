@@ -59,6 +59,6 @@
   },
   "outDir": "./dist/",
   "include": [
-    "src/**/*"
+    "src"
   ]
 }

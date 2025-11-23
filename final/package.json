@@ -64,7 +64,10 @@
     "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\"",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\" --ignore-path ./.prettierignore",
     "test": "npm run stylelint:fix && npm run lint && npm run format",
-    "commit": "npm test && cz"
+    "commit": "npm test && cz",
+    "vitebuild": "tsc -b && vite build",
+    "vitepreview": "vite preview",
+    "vitedev": "vite dev"
   },
   "dependencies": {
     "@emotion/react": "^11.13.0",
@@ -82,7 +85,13 @@
     "react-router-dom": "^6.25.1",
     "react-toastify": "^10.0.5",
     "redux": "^5.0.1",
-    "yup": "^1.4.0"
+    "yup": "^1.4.0",
+    "vite": "^7.2.4",
+    "@vitejs/plugin-react": "^5.1.1",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vite-plugin-svgr": "^3.0.0",
+    "@vitejs/plugin-react-swc": "^4.2.2"
+
   },
   "lint-staged": {
     "*.{css,scss}": "npm stylelint:fix",
