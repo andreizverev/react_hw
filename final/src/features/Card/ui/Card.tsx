@@ -7,11 +7,12 @@ import { CartCounter } from './CartCounter';
 import { cartSelectors } from 'entities/Card/model/cart';
 import { LikeButton } from './LikeButton';
 import { useAddToCart } from 'entities/Card/model/useAddToCart';
+import { memo } from 'react';
 
 type CardProps = {
 	product: Product;
 };
-export const Card = ({ product }: CardProps) => {
+export const Card = memo(({ product }: CardProps) => {
 	const { discount, price, name, tags, id, images } = product;
 	const cartProducts = useAppSelector(cartSelectors.getCartProducts);
 	const isProductInCart = cartProducts.some((p) => p.id === id);
@@ -67,4 +68,5 @@ export const Card = ({ product }: CardProps) => {
 			)}
 		</article>
 	);
-};
+});
+Card.displayName = 'Card';

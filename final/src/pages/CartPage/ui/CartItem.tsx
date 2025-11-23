@@ -5,11 +5,12 @@ import classNames from 'classnames';
 import { useDispatch } from 'react-redux';
 import { cartActions } from 'entities/Card/model/cart';
 import { CartCounter } from 'features/Card/ui/CartCounter';
+import { memo } from 'react';
 
 type CartItemProps = {
 	product: CartProduct;
 };
-export const CartItem = ({ product }: CartItemProps) => {
+export const CartItem = memo(({ product }: CartItemProps) => {
 	const dispatch = useDispatch();
 	const { id, name, images, price, discount } = product;
 
@@ -56,4 +57,6 @@ export const CartItem = ({ product }: CartItemProps) => {
 			</div>
 		</div>
 	);
-};
+});
+
+CartItem.displayName = 'CartItem';
