@@ -4,9 +4,9 @@ import { Price } from './Price';
 import { Link } from 'react-router-dom';
 import { useAppSelector } from 'shared/store';
 import { CartCounter } from './CartCounter';
-import { cartSelectors } from 'entities/Card/model/cart';
+import { cartSelectors } from 'entities/Cart/model/cart';
 import { LikeButton } from './LikeButton';
-import { useAddToCart } from 'entities/Card/model/useAddToCart';
+import { useAddToCart } from 'entities/Cart/model/useAddToCart';
 import { memo } from 'react';
 
 type CardProps = {

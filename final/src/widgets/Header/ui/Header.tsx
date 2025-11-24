@@ -4,19 +4,21 @@ import { Link } from 'react-router-dom';
 import { useProducts } from 'features/Product';
 import { useAppSelector } from 'shared/store';
 import { userSelectors } from 'entities/user/model/user';
-import { cartSelectors } from 'entities/Card/model/cart';
+import { cartSelectors } from 'entities/Cart/model/cart';
 import { isLiked } from 'shared/lib/utils/index';
 import { Logo } from 'features/Logo/index';
 import { Search } from 'features/Search/index';
+import { useMemo } from 'react';
 
 export const Header = () => {
 	const { products } = useProducts();
 	const user = useAppSelector(userSelectors.getUser);
 	const cartProducts = useAppSelector(cartSelectors.getCartProducts);
 
-	const likeCount = products.filter((product) =>
-		isLiked(product.likes, user?.id)
-	).length;
+	const likeCount = useMemo(
+		() => products.filter((product) => isLiked(product.likes, user?.id)).length,
+		[products, user?.id]
+	);
 
 	const accessToken = useAppSelector(userSelectors.getAccessToken);
 

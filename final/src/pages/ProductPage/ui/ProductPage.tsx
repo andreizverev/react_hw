@@ -8,7 +8,7 @@ import { ButtonBack } from 'shared/ui/ButtonBack';
 import { ReviewList } from 'widgets/ReviewList/ui/ReviewList';
 import { WithProtection } from 'features/Protection/model/WithProtection';
 import { useAppSelector } from 'shared/store';
-import { cartSelectors } from 'entities/Card/model/cart';
+import { cartSelectors } from 'entities/Cart/model/cart';
 import { useGetProductQuery } from 'shared/api/productsApi';
 import { CartCounter } from 'features/Card/ui/CartCounter';
 import { ProductCartCounter } from 'widgets/ProductCartCounter/index';

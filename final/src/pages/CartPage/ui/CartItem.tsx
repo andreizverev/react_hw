@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import s from './CartPage.module.css';
 import classNames from 'classnames';
 import { useDispatch } from 'react-redux';
-import { cartActions } from 'entities/Card/model/cart';
+import { cartActions } from 'entities/Cart/model/cart';
 import { CartCounter } from 'features/Card/ui/CartCounter';
 import { memo } from 'react';
 

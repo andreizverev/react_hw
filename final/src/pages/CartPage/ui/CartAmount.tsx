@@ -1,28 +1,61 @@
 import s from './CartPage.module.css';
 import classNames from 'classnames';
+import { useActionState, useRef } from 'react';
+import { cartActions } from 'entities/Cart/model/cart';
+import { useAppDispatch } from 'shared/store';
+import { toast } from 'react-toastify';
 
 type CartAmountProps = {
 	products: CartProduct[];
 };
-export const CartAmount = ({ products }: CartAmountProps) => {
-	const allPrice = products.reduce((acc, p) => p.price * p.count + acc, 0);
-	const allDiscount = products.reduce(
+
+type FormState = {
+	products: CartProduct[];
+};
+export const CartAmount = (products: CartAmountProps) => {
+	// noinspection JSUnusedLocalSymbols
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
+	const dispatch = useAppDispatch();
+	const tryCounterRef = useRef(0);
+	const stateReducer = async (state: FormState) => {
+		const result = await new Promise((resolve) => {
+			setTimeout(() => {
+				tryCounterRef.current += 1;
+				resolve(tryCounterRef.current == 2);
+			}, 1000);
+		});
+		if (result) {
+			state.products.forEach((p) =>
+				dispatch(cartActions.deleteCartProduct(p.id))
+			);
+			return { products: [] };
+		} else {
+			toast.warning('Ошибка при оформлении заказа. Попробуйте еще раз.');
+			return products;
+		}
+	};
+	const [state, formAction, isPending] = useActionState<FormState>(
+		stateReducer,
+		{
+			products: products.products,
+		}
+	);
+	const allPrice = state.products.reduce(
+		(acc, p) => p.price * p.count + acc,
+		0
+	);
+	const allDiscount = state.products.reduce(
 		(acc, p) => p.discount * p.count + acc,
 		0
 	);
 
-	const handleSubmitCart = () => {
-		const order = products.map((p) => ({ id: p.id, count: p.count }));
-		console.log('Отправка заказа на сервер: ', JSON.stringify(order, null, 2));
-	};
-
 	return (
-		<div className={classNames(s['cart-amount'])}>
+		<form className={classNames(s['cart-amount'])} action={formAction}>
 			<h1 className={classNames(s['cart-amount__title'])}>Ваша корзина</h1>
 			<div className={classNames(s['cart-amount__table'])}>
 				<div className={classNames(s['cart-amount__table-row'])}>
 					<span className={classNames(s['cart-amount__table-title'])}>
-						{`Товары (${products.length})`}
+						{`Товары (${state.products.length})`}
 					</span>
 					<span className={classNames(s['cart-amount__table-value'])}>
 						{`${allPrice} ₽`}
@@ -50,14 +83,15 @@ export const CartAmount = ({ products }: CartAmountProps) => {
 				</span>
 			</div>
 			<button
-				onClick={handleSubmitCart}
+				type='submit'
 				className={classNames(
 					s['button'],
 					s['button_type_primary'],
 					s['button_type_wide']
 				)}>
-				Оформить заказ
+				{!isPending && 'Оформить заказ'}
+				{isPending && 'Заказ оформляется...'}
 			</button>
-		</div>
+		</form>
 	);
 };

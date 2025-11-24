@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import { CartList } from './CartList';
 import { CartAmount } from './CartAmount';
 import { useAppSelector } from 'shared/store';
-import { cartSelectors } from 'entities/Card/model/cart';
+import { cartSelectors } from 'entities/Cart/model/cart';
 
 export const CartPage = () => {
 	const products = useAppSelector(cartSelectors.getCartProducts);

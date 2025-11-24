@@ -7,7 +7,7 @@ import {
 import { useAppDispatch, useAppSelector } from 'shared/store';
 
 interface UseLoadMoreParams {
-	ref: RefObject<HTMLDivElement>;
+	ref: RefObject<HTMLDivElement | null>;
 }
 export const useLoadMore = ({ ref }: UseLoadMoreParams) => {
 	const dispatch = useAppDispatch();

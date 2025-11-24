@@ -3,7 +3,7 @@ import AppApi from 'shared/api/ApiServise';
 import { authApi } from 'shared/api/authApi';
 import { productsApi } from 'shared/api/productsApi';
 import { userSlice } from 'entities/user/model/user';
-import { cartSlice } from 'entities/Card/model/cart';
+import { cartSlice } from 'entities/Cart/model/cart';
 import { productsSlice } from 'entities/product/model/products';
 
 export const rootReducer = combineReducers({
