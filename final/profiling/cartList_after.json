@@ -1,0 +1,2439 @@
+{
+  "version": 5,
+  "dataForRoots": [
+    {
+      "commitData": [
+        {
+          "changeDescriptions": null,
+          "duration": 1.2,
+          "effectDuration": 0.2,
+          "fiberActualDurations": [
+            [
+              19,
+              0.1
+            ],
+            [
+              18,
+              0.3
+            ],
+            [
+              20,
+              0.2
+            ],
+            [
+              21,
+              0
+            ],
+            [
+              22,
+              0.1
+            ],
+            [
+              165,
+              0.1
+            ],
+            [
+              166,
+              0.1
+            ],
+            [
+              17,
+              1.1
+            ],
+            [
+              262,
+              0.2
+            ],
+            [
+              263,
+              0
+            ],
+            [
+              266,
+              0.1
+            ],
+            [
+              267,
+              0.1
+            ],
+            [
+              270,
+              0.2
+            ],
+            [
+              271,
+              0
+            ],
+            [
+              274,
+              0.1
+            ],
+            [
+              275,
+              0
+            ],
+            [
+              278,
+              0.1
+            ],
+            [
+              279,
+              0
+            ],
+            [
+              282,
+              0
+            ],
+            [
+              283,
+              0
+            ],
+            [
+              286,
+              0.1
+            ],
+            [
+              287,
+              0
+            ],
+            [
+              255,
+              0.8
+            ],
+            [
+              288,
+              0.2
+            ],
+            [
+              254,
+              1.2
+            ]
+          ],
+          "fiberSelfDurations": [
+            [
+              19,
+              0
+            ],
+            [
+              18,
+              0.2
+            ],
+            [
+              20,
+              0
+            ],
+            [
+              21,
+              0
+            ],
+            [
+              22,
+              0.1
+            ],
+            [
+              165,
+              0.1
+            ],
+            [
+              166,
+              0.1
+            ],
+            [
+              17,
+              0.3
+            ],
+            [
+              262,
+              0.1
+            ],
+            [
+              263,
+              0
+            ],
+            [
+              266,
+              0.1
+            ],
+            [
+              267,
+              0.1
+            ],
+            [
+              270,
+              0.1
+            ],
+            [
+              271,
+              0
+            ],
+            [
+              274,
+              0.1
+            ],
+            [
+              275,
+              0
+            ],
+            [
+              278,
+              0
+            ],
+            [
+              279,
+              0
+            ],
+            [
+              282,
+              0
+            ],
+            [
+              283,
+              0
+            ],
+            [
+              286,
+              0.1
+            ],
+            [
+              287,
+              0
+            ],
+            [
+              255,
+              0
+            ],
+            [
+              288,
+              0.1
+            ],
+            [
+              254,
+              0.1
+            ]
+          ],
+          "passiveEffectDuration": 0.5,
+          "priorityLevel": "Immediate",
+          "timestamp": 1766.5999999940395,
+          "updaters": [
+            {
+              "displayName": "Header",
+              "id": 17,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 5,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            },
+            {
+              "displayName": "CartCounter",
+              "id": 262,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 5,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            },
+            {
+              "displayName": "CartCounter",
+              "id": 266,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 5,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            },
+            {
+              "displayName": "CartCounter",
+              "id": 270,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 5,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            },
+            {
+              "displayName": "CartCounter",
+              "id": 274,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 5,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            },
+            {
+              "displayName": "CartCounter",
+              "id": 278,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 5,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            },
+            {
+              "displayName": "CartCounter",
+              "id": 282,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 5,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            },
+            {
+              "displayName": "CartCounter",
+              "id": 286,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 5,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            },
+            {
+              "displayName": "CartPage",
+              "id": 254,
+              "key": null,
+              "env": null,
+              "stack": null,
+              "type": 5,
+              "hocDisplayNames": null,
+              "compiledWithForget": false
+            }
+          ]
+        }
+      ],
+      "displayName": "Provider",
+      "initialTreeBaseDurations": [
+        [
+          1,
+          7.900000035762787
+        ],
+        [
+          2,
+          6.200000017881393
+        ],
+        [
+          3,
+          5.100000023841858
+        ],
+        [
+          4,
+          4.900000035762787
+        ],
+        [
+          5,
+          4.700000047683716
+        ],
+        [
+          6,
+          4.700000047683716
+        ],
+        [
+          7,
+          4.700000047683716
+        ],
+        [
+          8,
+          4.700000047683716
+        ],
+        [
+          9,
+          4.700000047683716
+        ],
+        [
+          10,
+          4.60000005364418
+        ],
+        [
+          11,
+          4.60000005364418
+        ],
+        [
+          12,
+          4.500000029802322
+        ],
+        [
+          13,
+          4.10000005364418
+        ],
+        [
+          14,
+          3.900000035762787
+        ],
+        [
+          15,
+          3.900000035762787
+        ],
+        [
+          16,
+          3.900000035762787
+        ],
+        [
+          17,
+          0.29999998211860657
+        ],
+        [
+          18,
+          0.09999999403953552
+        ],
+        [
+          19,
+          0
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          22,
+          0
+        ],
+        [
+          165,
+          0.09999999403953552
+        ],
+        [
+          166,
+          0
+        ],
+        [
+          23,
+          1.2000000178813934
+        ],
+        [
+          24,
+          1.2000000178813934
+        ],
+        [
+          25,
+          1.100000023841858
+        ],
+        [
+          26,
+          0.9000000059604645
+        ],
+        [
+          27,
+          0.10000002384185791
+        ],
+        [
+          28,
+          1.8000000715255737
+        ],
+        [
+          29,
+          1.8000000715255737
+        ],
+        [
+          30,
+          1.8000000715255737
+        ],
+        [
+          31,
+          1.8000000715255737
+        ],
+        [
+          254,
+          1.8000000715255737
+        ],
+        [
+          255,
+          1.5000000298023224
+        ],
+        [
+          256,
+          0.3999999761581421
+        ],
+        [
+          257,
+          0.09999999403953552
+        ],
+        [
+          258,
+          0
+        ],
+        [
+          259,
+          0.09999999403953552
+        ],
+        [
+          260,
+          0.20000001788139343
+        ],
+        [
+          261,
+          0
+        ],
+        [
+          262,
+          0
+        ],
+        [
+          263,
+          0
+        ],
+        [
+          264,
+          0.20000001788139343
+        ],
+        [
+          265,
+          0.10000002384185791
+        ],
+        [
+          266,
+          0
+        ],
+        [
+          267,
+          0.09999999403953552
+        ],
+        [
+          268,
+          0.10000002384185791
+        ],
+        [
+          269,
+          0
+        ],
+        [
+          270,
+          0
+        ],
+        [
+          271,
+          0
+        ],
+        [
+          272,
+          0.09999999403953552
+        ],
+        [
+          273,
+          0
+        ],
+        [
+          274,
+          0.09999999403953552
+        ],
+        [
+          275,
+          0
+        ],
+        [
+          276,
+          0.20000001788139343
+        ],
+        [
+          277,
+          0
+        ],
+        [
+          278,
+          0
+        ],
+        [
+          279,
+          0
+        ],
+        [
+          280,
+          0.19999998807907104
+        ],
+        [
+          281,
+          0.09999999403953552
+        ],
+        [
+          282,
+          0
+        ],
+        [
+          283,
+          0
+        ],
+        [
+          284,
+          0.09999999403953552
+        ],
+        [
+          285,
+          0.09999999403953552
+        ],
+        [
+          286,
+          0
+        ],
+        [
+          287,
+          0
+        ],
+        [
+          288,
+          0.10000002384185791
+        ],
+        [
+          34,
+          0.09999999403953552
+        ],
+        [
+          35,
+          0.4999999701976776
+        ],
+        [
+          36,
+          0
+        ],
+        [
+          37,
+          0
+        ]
+      ],
+      "operations": [
+        [
+          1,
+          1,
+          0,
+          2,
+          4,
+          257,
+          258,
+          259,
+          256,
+          4,
+          18,
+          200,
+          4,
+          22,
+          100,
+          4,
+          166,
+          99,
+          4,
+          17,
+          800,
+          4,
+          262,
+          200,
+          4,
+          260,
+          400,
+          4,
+          266,
+          99,
+          4,
+          264,
+          300,
+          4,
+          270,
+          99,
+          4,
+          268,
+          200,
+          4,
+          274,
+          100,
+          4,
+          272,
+          100,
+          4,
+          286,
+          99,
+          4,
+          284,
+          199,
+          4,
+          255,
+          1600,
+          3,
+          255,
+          7,
+          260,
+          264,
+          268,
+          272,
+          276,
+          280,
+          284,
+          4,
+          288,
+          200,
+          4,
+          254,
+          1900,
+          4,
+          31,
+          1900,
+          4,
+          30,
+          1900,
+          4,
+          29,
+          1900,
+          4,
+          28,
+          1900,
+          4,
+          16,
+          4500,
+          4,
+          15,
+          4500,
+          4,
+          14,
+          4500,
+          4,
+          13,
+          4700,
+          4,
+          12,
+          5100,
+          4,
+          11,
+          5200,
+          4,
+          10,
+          5200,
+          4,
+          9,
+          5300,
+          4,
+          8,
+          5300,
+          4,
+          7,
+          5300,
+          4,
+          6,
+          5300,
+          4,
+          5,
+          5300,
+          4,
+          4,
+          5500,
+          4,
+          3,
+          5700,
+          4,
+          2,
+          6800,
+          4,
+          1,
+          8500,
+          11,
+          1,
+          5,
+          0,
+          0,
+          1520800,
+          84000,
+          0,
+          84000,
+          24000,
+          24000,
+          248400,
+          108000,
+          1024000,
+          1143925,
+          0,
+          1251925,
+          1520800,
+          0,
+          0,
+          1251925,
+          1520800,
+          244000
+        ]
+      ],
+      "rootID": 1,
+      "snapshots": [
+        [
+          1,
+          {
+            "id": 1,
+            "children": [
+              2
+            ],
+            "displayName": null,
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 11,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          2,
+          {
+            "id": 2,
+            "children": [
+              3
+            ],
+            "displayName": "Provider",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          3,
+          {
+            "id": 3,
+            "children": [
+              4
+            ],
+            "displayName": "ReactRedux.Provider",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 2,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          4,
+          {
+            "id": 4,
+            "children": [
+              5
+            ],
+            "displayName": "RouterProvider",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          5,
+          {
+            "id": 5,
+            "children": [
+              6
+            ],
+            "displayName": "DataRouter.Provider",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 2,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          6,
+          {
+            "id": 6,
+            "children": [
+              7
+            ],
+            "displayName": "DataRouterState.Provider",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 2,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          7,
+          {
+            "id": 7,
+            "children": [
+              8
+            ],
+            "displayName": "Fetchers.Provider",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 2,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          8,
+          {
+            "id": 8,
+            "children": [
+              9
+            ],
+            "displayName": "ViewTransition.Provider",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 2,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          9,
+          {
+            "id": 9,
+            "children": [
+              10
+            ],
+            "displayName": "Router",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          10,
+          {
+            "id": 10,
+            "children": [
+              11
+            ],
+            "displayName": "Navigation.Provider",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 2,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          11,
+          {
+            "id": 11,
+            "children": [
+              12
+            ],
+            "displayName": "Location.Provider",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 2,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          12,
+          {
+            "id": 12,
+            "children": [
+              13
+            ],
+            "displayName": "DataRoutes",
+            "hocDisplayNames": [
+              "Memo"
+            ],
+            "key": null,
+            "type": 8,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          13,
+          {
+            "id": 13,
+            "children": [
+              14
+            ],
+            "displayName": "RenderErrorBoundary",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 1,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          14,
+          {
+            "id": 14,
+            "children": [
+              15
+            ],
+            "displayName": "RenderedRoute",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          15,
+          {
+            "id": 15,
+            "children": [
+              16
+            ],
+            "displayName": "Route.Provider",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 2,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          16,
+          {
+            "id": 16,
+            "children": [
+              17,
+              23,
+              28,
+              34,
+              35
+            ],
+            "displayName": "App",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          17,
+          {
+            "id": 17,
+            "children": [
+              18,
+              20,
+              21,
+              22,
+              165,
+              166
+            ],
+            "displayName": "Header",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          18,
+          {
+            "id": 18,
+            "children": [
+              19
+            ],
+            "displayName": "Logo",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          19,
+          {
+            "id": 19,
+            "children": [],
+            "displayName": "Link",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 6,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          20,
+          {
+            "id": 20,
+            "children": [],
+            "displayName": "Search",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          21,
+          {
+            "id": 21,
+            "children": [],
+            "displayName": "Link",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 6,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          22,
+          {
+            "id": 22,
+            "children": [],
+            "displayName": "Link",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 6,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          165,
+          {
+            "id": 165,
+            "children": [],
+            "displayName": "Link",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 6,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          166,
+          {
+            "id": 166,
+            "children": [],
+            "displayName": "Link",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 6,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          23,
+          {
+            "id": 23,
+            "children": [
+              24
+            ],
+            "displayName": "SortIcon",
+            "hocDisplayNames": [
+              "Memo"
+            ],
+            "key": null,
+            "type": 8,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          24,
+          {
+            "id": 24,
+            "children": [
+              25
+            ],
+            "displayName": "SortIcon",
+            "hocDisplayNames": [
+              "ForwardRef"
+            ],
+            "key": null,
+            "type": 6,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          25,
+          {
+            "id": 25,
+            "children": [
+              26
+            ],
+            "displayName": "SvgIcon",
+            "hocDisplayNames": [
+              "ForwardRef"
+            ],
+            "key": null,
+            "type": 6,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          26,
+          {
+            "id": 26,
+            "children": [
+              27
+            ],
+            "displayName": "MuiSvgIconRoot",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 6,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          27,
+          {
+            "id": 27,
+            "children": [],
+            "displayName": "Insertion",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          28,
+          {
+            "id": 28,
+            "children": [
+              29
+            ],
+            "displayName": "Outlet",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          29,
+          {
+            "id": 29,
+            "children": [
+              30
+            ],
+            "displayName": "Context.Provider",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 2,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          30,
+          {
+            "id": 30,
+            "children": [
+              31
+            ],
+            "displayName": "RenderedRoute",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          31,
+          {
+            "id": 31,
+            "children": [
+              254
+            ],
+            "displayName": "Route.Provider",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 2,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          254,
+          {
+            "id": 254,
+            "children": [
+              255,
+              288
+            ],
+            "displayName": "CartPage",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          255,
+          {
+            "id": 255,
+            "children": [
+              256,
+              260,
+              264,
+              268,
+              272,
+              276,
+              280,
+              284
+            ],
+            "displayName": "CartList",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          256,
+          {
+            "id": 256,
+            "children": [
+              257,
+              258,
+              259
+            ],
+            "displayName": "CartItem",
+            "hocDisplayNames": null,
+            "key": "cm87itfy700u5neos2o1ft70i",
+            "type": 8,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          257,
+          {
+            "id": 257,
+            "children": [],
+            "displayName": "Link",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 6,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          258,
+          {
+            "id": 258,
+            "children": [],
+            "displayName": "CartCounter",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          259,
+          {
+            "id": 259,
+            "children": [],
+            "displayName": "SvgTrash",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          260,
+          {
+            "id": 260,
+            "children": [
+              261,
+              262,
+              263
+            ],
+            "displayName": "CartItem",
+            "hocDisplayNames": null,
+            "key": "cm1noq3ap00jyneos7409e6ml",
+            "type": 8,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          261,
+          {
+            "id": 261,
+            "children": [],
+            "displayName": "Link",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 6,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          262,
+          {
+            "id": 262,
+            "children": [],
+            "displayName": "CartCounter",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          263,
+          {
+            "id": 263,
+            "children": [],
+            "displayName": "SvgTrash",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          264,
+          {
+            "id": 264,
+            "children": [
+              265,
+              266,
+              267
+            ],
+            "displayName": "CartItem",
+            "hocDisplayNames": null,
+            "key": "cm0d4k3i400fwneos72vh6voi",
+            "type": 8,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          265,
+          {
+            "id": 265,
+            "children": [],
+            "displayName": "Link",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 6,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          266,
+          {
+            "id": 266,
+            "children": [],
+            "displayName": "CartCounter",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          267,
+          {
+            "id": 267,
+            "children": [],
+            "displayName": "SvgTrash",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          268,
+          {
+            "id": 268,
+            "children": [
+              269,
+              270,
+              271
+            ],
+            "displayName": "CartItem",
+            "hocDisplayNames": null,
+            "key": "cm0d4j2sd00fvneosc5lln2pt",
+            "type": 8,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          269,
+          {
+            "id": 269,
+            "children": [],
+            "displayName": "Link",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 6,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          270,
+          {
+            "id": 270,
+            "children": [],
+            "displayName": "CartCounter",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          271,
+          {
+            "id": 271,
+            "children": [],
+            "displayName": "SvgTrash",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          272,
+          {
+            "id": 272,
+            "children": [
+              273,
+              274,
+              275
+            ],
+            "displayName": "CartItem",
+            "hocDisplayNames": null,
+            "key": "cm0d4gcca00fsneos0dxc1gz4",
+            "type": 8,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          273,
+          {
+            "id": 273,
+            "children": [],
+            "displayName": "Link",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 6,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          274,
+          {
+            "id": 274,
+            "children": [],
+            "displayName": "CartCounter",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          275,
+          {
+            "id": 275,
+            "children": [],
+            "displayName": "SvgTrash",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          276,
+          {
+            "id": 276,
+            "children": [
+              277,
+              278,
+              279
+            ],
+            "displayName": "CartItem",
+            "hocDisplayNames": null,
+            "key": "cm0d4iarl00funeos0y2qdnt8",
+            "type": 8,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          277,
+          {
+            "id": 277,
+            "children": [],
+            "displayName": "Link",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 6,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          278,
+          {
+            "id": 278,
+            "children": [],
+            "displayName": "CartCounter",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          279,
+          {
+            "id": 279,
+            "children": [],
+            "displayName": "SvgTrash",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          280,
+          {
+            "id": 280,
+            "children": [
+              281,
+              282,
+              283
+            ],
+            "displayName": "CartItem",
+            "hocDisplayNames": null,
+            "key": "cm0d4fp7h00frneosz0e950vx",
+            "type": 8,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          281,
+          {
+            "id": 281,
+            "children": [],
+            "displayName": "Link",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 6,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          282,
+          {
+            "id": 282,
+            "children": [],
+            "displayName": "CartCounter",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          283,
+          {
+            "id": 283,
+            "children": [],
+            "displayName": "SvgTrash",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          284,
+          {
+            "id": 284,
+            "children": [
+              285,
+              286,
+              287
+            ],
+            "displayName": "CartItem",
+            "hocDisplayNames": null,
+            "key": "cm0d4cs7j00fnneos1lzxv3il",
+            "type": 8,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          285,
+          {
+            "id": 285,
+            "children": [],
+            "displayName": "Link",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 6,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          286,
+          {
+            "id": 286,
+            "children": [],
+            "displayName": "CartCounter",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          287,
+          {
+            "id": 287,
+            "children": [],
+            "displayName": "SvgTrash",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          288,
+          {
+            "id": 288,
+            "children": [],
+            "displayName": "CartAmount",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          34,
+          {
+            "id": 34,
+            "children": [],
+            "displayName": "Q",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          35,
+          {
+            "id": 35,
+            "children": [
+              36
+            ],
+            "displayName": "Footer",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          36,
+          {
+            "id": 36,
+            "children": [
+              37
+            ],
+            "displayName": "Logo",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 5,
+            "compiledWithForget": false
+          }
+        ],
+        [
+          37,
+          {
+            "id": 37,
+            "children": [],
+            "displayName": "Link",
+            "hocDisplayNames": null,
+            "key": null,
+            "type": 6,
+            "compiledWithForget": false
+          }
+        ]
+      ]
+    }
+  ],
+  "timelineData": [
+    {
+      "batchUIDToMeasuresKeyValueArray": [
+        [
+          1,
+          [
+            {
+              "type": "render-idle",
+              "batchUID": 1,
+              "depth": 0,
+              "lanes": [
+                1
+              ],
+              "timestamp": 10,
+              "duration": 5.4000000059604645
+            },
+            {
+              "type": "render",
+              "batchUID": 1,
+              "depth": 0,
+              "lanes": [
+                1
+              ],
+              "timestamp": 10.100000023841858,
+              "duration": 2.699999988079071
+            },
+            {
+              "type": "commit",
+              "batchUID": 1,
+              "depth": 0,
+              "lanes": [
+                1
+              ],
+              "timestamp": 12.800000011920929,
+              "duration": 2.5999999940395355
+            },
+            {
+              "type": "layout-effects",
+              "batchUID": 1,
+              "depth": 1,
+              "lanes": [
+                1
+              ],
+              "timestamp": 13.5,
+              "duration": 0.20000001788139343
+            },
+            {
+              "type": "passive-effects",
+              "batchUID": 1,
+              "depth": 1,
+              "lanes": [
+                1
+              ],
+              "timestamp": 14.700000017881393,
+              "duration": 0.699999988079071
+            }
+          ]
+        ]
+      ],
+      "componentMeasures": [
+        {
+          "componentName": "Header",
+          "duration": 0.29999998211860657,
+          "timestamp": 10.200000017881393,
+          "type": "render",
+          "warning": null
+        },
+        {
+          "componentName": "Logo",
+          "duration": 0.10000002384185791,
+          "timestamp": 10.5,
+          "type": "render",
+          "warning": null
+        },
+        {
+          "componentName": "Link",
+          "duration": 0,
+          "timestamp": 10.700000017881393,
+          "type": "render",
+          "warning": null
+        },
+        {
+          "componentName": "Search",
+          "duration": 0,
+          "timestamp": 10.800000011920929,
+          "type": "render",
+          "warning": null
+        },
+        {
+          "componentName": "Link",
+          "duration": 0,
+          "timestamp": 11,
+          "type": "render",
+          "warning": null
+        },
+        {
+          "componentName": "Link",
+          "duration": 0.10000002384185791,
+          "timestamp": 11,
+          "type": "render",
+          "warning": null
+        },
+        {
+          "componentName": "Link",
+          "duration": 0.09999999403953552,
+          "timestamp": 11.100000023841858,
+          "type": "render",
+          "warning": null
+        },
+        {
+          "componentName": "Link",
+          "duration": 0.09999999403953552,
+          "timestamp": 11.200000017881393,
+          "type": "render",
+          "warning": null
+        },
+        {
+          "componentName": "CartPage",
+          "duration": 0.09999999403953552,
+          "timestamp": 11.300000011920929,
+          "type": "render",
+          "warning": null
+        },
+        {
+          "componentName": "CartList",
+          "duration": 0,
+          "timestamp": 11.5,
+          "type": "render",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0.10000002384185791,
+          "timestamp": 11.5,
+          "type": "render",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0.09999999403953552,
+          "timestamp": 11.700000017881393,
+          "type": "render",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0.09999999403953552,
+          "timestamp": 11.800000011920929,
+          "type": "render",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0.10000002384185791,
+          "timestamp": 12,
+          "type": "render",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0,
+          "timestamp": 12.200000017881393,
+          "type": "render",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0,
+          "timestamp": 12.300000011920929,
+          "type": "render",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0.09999999403953552,
+          "timestamp": 12.400000005960464,
+          "type": "render",
+          "warning": null
+        },
+        {
+          "componentName": "CartAmount",
+          "duration": 0.10000002384185791,
+          "timestamp": 12.5,
+          "type": "render",
+          "warning": null
+        },
+        {
+          "componentName": "Link",
+          "duration": 0,
+          "timestamp": 13.5,
+          "type": "layout-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "Search",
+          "duration": 0,
+          "timestamp": 13.600000023841858,
+          "type": "layout-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "Link",
+          "duration": 0,
+          "timestamp": 13.600000023841858,
+          "type": "layout-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "Link",
+          "duration": 0,
+          "timestamp": 13.600000023841858,
+          "type": "layout-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "Link",
+          "duration": 0,
+          "timestamp": 13.700000017881393,
+          "type": "layout-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "Link",
+          "duration": 0,
+          "timestamp": 13.700000017881393,
+          "type": "layout-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0,
+          "timestamp": 14.800000011920929,
+          "type": "passive-effect-unmount",
+          "warning": null
+        },
+        {
+          "componentName": "Header",
+          "duration": 0,
+          "timestamp": 14.900000005960464,
+          "type": "passive-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "Header",
+          "duration": 0,
+          "timestamp": 15,
+          "type": "passive-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "Header",
+          "duration": 0,
+          "timestamp": 15,
+          "type": "passive-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "Header",
+          "duration": 0,
+          "timestamp": 15,
+          "type": "passive-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0,
+          "timestamp": 15,
+          "type": "passive-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0.10000002384185791,
+          "timestamp": 15,
+          "type": "passive-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0,
+          "timestamp": 15.100000023841858,
+          "type": "passive-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0,
+          "timestamp": 15.100000023841858,
+          "type": "passive-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0,
+          "timestamp": 15.100000023841858,
+          "type": "passive-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0.09999999403953552,
+          "timestamp": 15.100000023841858,
+          "type": "passive-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0,
+          "timestamp": 15.200000017881393,
+          "type": "passive-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0,
+          "timestamp": 15.200000017881393,
+          "type": "passive-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0,
+          "timestamp": 15.200000017881393,
+          "type": "passive-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0,
+          "timestamp": 15.200000017881393,
+          "type": "passive-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0,
+          "timestamp": 15.200000017881393,
+          "type": "passive-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0,
+          "timestamp": 15.200000017881393,
+          "type": "passive-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0,
+          "timestamp": 15.300000011920929,
+          "type": "passive-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "CartCounter",
+          "duration": 0,
+          "timestamp": 15.300000011920929,
+          "type": "passive-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "CartPage",
+          "duration": 0.09999999403953552,
+          "timestamp": 15.300000011920929,
+          "type": "passive-effect-mount",
+          "warning": null
+        },
+        {
+          "componentName": "CartPage",
+          "duration": 0,
+          "timestamp": 15.400000005960464,
+          "type": "passive-effect-mount",
+          "warning": null
+        }
+      ],
+      "duration": 25.400000005960464,
+      "flamechart": [],
+      "internalModuleSourceToRanges": [],
+      "laneToLabelKeyValueArray": [
+        [
+          1,
+          "Sync"
+        ],
+        [
+          2,
+          "InputContinuousHydration"
+        ],
+        [
+          4,
+          "InputContinuous"
+        ],
+        [
+          8,
+          "DefaultHydration"
+        ],
+        [
+          16,
+          "Default"
+        ],
+        [
+          32,
+          "TransitionHydration"
+        ],
+        [
+          64,
+          "Transition"
+        ],
+        [
+          128,
+          "Transition"
+        ],
+        [
+          256,
+          "Transition"
+        ],
+        [
+          512,
+          "Transition"
+        ],
+        [
+          1024,
+          "Transition"
+        ],
+        [
+          2048,
+          "Transition"
+        ],
+        [
+          4096,
+          "Transition"
+        ],
+        [
+          8192,
+          "Transition"
+        ],
+        [
+          16384,
+          "Transition"
+        ],
+        [
+          32768,
+          "Transition"
+        ],
+        [
+          65536,
+          "Transition"
+        ],
+        [
+          131072,
+          "Transition"
+        ],
+        [
+          262144,
+          "Transition"
+        ],
+        [
+          524288,
+          "Transition"
+        ],
+        [
+          1048576,
+          "Transition"
+        ],
+        [
+          2097152,
+          "Transition"
+        ],
+        [
+          4194304,
+          "Retry"
+        ],
+        [
+          8388608,
+          "Retry"
+        ],
+        [
+          16777216,
+          "Retry"
+        ],
+        [
+          33554432,
+          "Retry"
+        ],
+        [
+          67108864,
+          "Retry"
+        ],
+        [
+          134217728,
+          "SelectiveHydration"
+        ],
+        [
+          268435456,
+          "IdleHydration"
+        ],
+        [
+          536870912,
+          "Idle"
+        ],
+        [
+          1073741824,
+          "Offscreen"
+        ]
+      ],
+      "laneToReactMeasureKeyValueArray": [
+        [
+          1,
+          [
+            {
+              "type": "render-idle",
+              "batchUID": 1,
+              "depth": 0,
+              "lanes": [
+                1
+              ],
+              "timestamp": 10,
+              "duration": 5.4000000059604645
+            },
+            {
+              "type": "render",
+              "batchUID": 1,
+              "depth": 0,
+              "lanes": [
+                1
+              ],
+              "timestamp": 10.100000023841858,
+              "duration": 2.699999988079071
+            },
+            {
+              "type": "commit",
+              "batchUID": 1,
+              "depth": 0,
+              "lanes": [
+                1
+              ],
+              "timestamp": 12.800000011920929,
+              "duration": 2.5999999940395355
+            },
+            {
+              "type": "layout-effects",
+              "batchUID": 1,
+              "depth": 1,
+              "lanes": [
+                1
+              ],
+              "timestamp": 13.5,
+              "duration": 0.20000001788139343
+            },
+            {
+              "type": "passive-effects",
+              "batchUID": 1,
+              "depth": 1,
+              "lanes": [
+                1
+              ],
+              "timestamp": 14.700000017881393,
+              "duration": 0.699999988079071
+            }
+          ]
+        ],
+        [
+          2,
+          []
+        ],
+        [
+          4,
+          []
+        ],
+        [
+          8,
+          []
+        ],
+        [
+          16,
+          []
+        ],
+        [
+          32,
+          []
+        ],
+        [
+          64,
+          []
+        ],
+        [
+          128,
+          []
+        ],
+        [
+          256,
+          []
+        ],
+        [
+          512,
+          []
+        ],
+        [
+          1024,
+          []
+        ],
+        [
+          2048,
+          []
+        ],
+        [
+          4096,
+          []
+        ],
+        [
+          8192,
+          []
+        ],
+        [
+          16384,
+          []
+        ],
+        [
+          32768,
+          []
+        ],
+        [
+          65536,
+          []
+        ],
+        [
+          131072,
+          []
+        ],
+        [
+          262144,
+          []
+        ],
+        [
+          524288,
+          []
+        ],
+        [
+          1048576,
+          []
+        ],
+        [
+          2097152,
+          []
+        ],
+        [
+          4194304,
+          []
+        ],
+        [
+          8388608,
+          []
+        ],
+        [
+          16777216,
+          []
+        ],
+        [
+          33554432,
+          []
+        ],
+        [
+          67108864,
+          []
+        ],
+        [
+          134217728,
+          []
+        ],
+        [
+          268435456,
+          []
+        ],
+        [
+          536870912,
+          []
+        ],
+        [
+          1073741824,
+          []
+        ]
+      ],
+      "nativeEvents": [],
+      "networkMeasures": [],
+      "otherUserTimingMarks": [],
+      "reactVersion": "18.3.1",
+      "schedulingEvents": [],
+      "snapshots": [],
+      "snapshotHeight": 0,
+      "startTime": 25606.29999998212,
+      "suspenseEvents": [],
+      "thrownErrors": []
+    }
+  ]
+}
